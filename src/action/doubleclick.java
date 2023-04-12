@@ -21,7 +21,6 @@ public class doubleclick {
 		Actions a=new Actions(driver);
 		a.doubleClick(plussbtn).perform();
 		
-		System.out.println("print");
 	}
 
 }
