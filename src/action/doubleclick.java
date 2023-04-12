@@ -20,6 +20,8 @@ public class doubleclick {
 		Thread.sleep(2000);
 		Actions a=new Actions(driver);
 		a.doubleClick(plussbtn).perform();
+		
+		System.out.println("print");
 	}
 
 }
